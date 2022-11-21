@@ -1,0 +1,244 @@
+$ git config --global user.name
+Devika Gosala
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~ (master)
+$ whoami
+SIGNIN
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~ (master)
+$ pwd
+/c/Users/SIGNIN
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{8d295beb-edaf-11ec-ac91-fbd10936b776}.TM.blf
+ NTUSER.DAT{8d295beb-edaf-11ec-ac91-fbd10936b776}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{8d295beb-edaf-11ec-ac91-fbd10936b776}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ eclipse/
+ eclipse-workspace/
+ myfirstproject/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~ (master)
+$ ls -l
+total 6369
+drwxr-xr-x 1 SIGNIN 197121       0 Apr 21  2022 '3D Objects'/
+drwxr-xr-x 1 SIGNIN 197121       0 Jun 17 01:42  AppData/
+lrwxrwxrwx 1 SIGNIN 197121      31 Jun 17 01:40 'Application Data' -> /c/Users/SIGNIN/AppData/Roaming/
+drwxr-xr-x 1 SIGNIN 197121       0 Jun 17 09:44  Contacts/
+lrwxrwxrwx 1 SIGNIN 197121      59 Jun 17 01:40  Cookies -> /c/Users/SIGNIN/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 SIGNIN 197121       0 Oct  9 19:26  Documents/
+drwxr-xr-x 1 SIGNIN 197121       0 Nov 16 12:03  Downloads/
+drwxr-xr-x 1 SIGNIN 197121       0 Jun 17 09:44  Favorites/
+drwxr-xr-x 1 SIGNIN 197121       0 Nov 16 17:47  IntelGraphicsProfiles/
+drwxr-xr-x 1 SIGNIN 197121       0 Jun 17 09:44  Links/
+lrwxrwxrwx 1 SIGNIN 197121      29 Jun 17 01:40 'Local Settings' -> /c/Users/SIGNIN/AppData/Local/
+drwxr-xr-x 1 SIGNIN 197121       0 Jun 17 09:44  Music/
+lrwxrwxrwx 1 SIGNIN 197121      25 Jun 17 01:40 'My Documents' -> /c/Users/SIGNIN/Documents/
+-rw-r--r-- 1 SIGNIN 197121 4194304 Nov 15 14:31  NTUSER.DAT
+-rw-r--r-- 1 SIGNIN 197121   65536 Jun 17 01:40  NTUSER.DAT{8d295beb-edaf-11ec-ac91-fbd10936b776}.TM.blf
+-rw-r--r-- 1 SIGNIN 197121  524288 Jun 17 01:40  NTUSER.DAT{8d295beb-edaf-11ec-ac91-fbd10936b776}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 SIGNIN 197121  524288 Jun 17 01:40  NTUSER.DAT{8d295beb-edaf-11ec-ac91-fbd10936b776}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 SIGNIN 197121      67 Jun 17 01:40  NetHood -> '/c/Users/SIGNIN/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 SIGNIN 197121       0 Nov 11 11:46  OneDrive/
+drwxr-xr-x 1 SIGNIN 197121       0 Oct  9 19:26  Pictures/
+lrwxrwxrwx 1 SIGNIN 197121      67 Jun 17 01:40  PrintHood -> '/c/Users/SIGNIN/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 SIGNIN 197121      56 Jun 17 01:40  Recent -> /c/Users/SIGNIN/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 SIGNIN 197121       0 Jun 17 09:44 'Saved Games'/
+drwxr-xr-x 1 SIGNIN 197121       0 Jun 17 09:44  Searches/
+lrwxrwxrwx 1 SIGNIN 197121      56 Jun 17 01:40  SendTo -> /c/Users/SIGNIN/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 SIGNIN 197121      60 Jun 17 01:40 'Start Menu' -> '/c/Users/SIGNIN/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 SIGNIN 197121      59 Jun 17 01:40  Templates -> /c/Users/SIGNIN/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 SIGNIN 197121       0 Jun 17 09:44  Videos/
+drwxr-xr-x 1 SIGNIN 197121       0 Nov  2 20:31  eclipse/
+drwxr-xr-x 1 SIGNIN 197121       0 Nov 16 18:50  eclipse-workspace/
+drwxr-xr-x 1 SIGNIN 197121       0 Nov 11 22:05  myfirstproject/
+-rw-r--r-- 1 SIGNIN 197121 1007616 Jun 17 01:40  ntuser.dat.LOG1
+-rw-r--r-- 1 SIGNIN 197121   98304 Jun 17 01:40  ntuser.dat.LOG2
+-rw-r--r-- 1 SIGNIN 197121      20 Jun 17 09:42  ntuser.ini
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~ (master)
+$ ls -F
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{8d295beb-edaf-11ec-ac91-fbd10936b776}.TM.blf
+ NTUSER.DAT{8d295beb-edaf-11ec-ac91-fbd10936b776}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{8d295beb-edaf-11ec-ac91-fbd10936b776}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ eclipse/
+ eclipse-workspace/
+ myfirstproject/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~ (master)
+$ cd se
+bash: cd: se: No such file or directory
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~ (master)
+$ mkdir gitdemo
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~ (master)
+$ cd gitdemo
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git init
+Initialized empty Git repository in C:/Users/SIGNIN/gitdemo/.git/
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ ls
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ ls -a
+./  ../  .git/
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git  status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ touch demo.txt
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ ls
+demo.txt
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git add demo.txt
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   demo.txt
+
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git commit -m "first commit"
+[master (root-commit) d2db518] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 demo.txt
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git remote set-url origin https://github.com/devikag6/firstRep.git
+error: No such remote 'origin'
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git remote set-url https://github.com/devikag6/firstRep.git
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git remote set-url --add "firstRep" https://github.com/devikag6/firstRep.git
+error: No such remote 'firstRep'
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git remote set-url --add https://github.com/devikag6/firstRep.git
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git remote add origin https://github.com/devikag6/firstRep.git
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git remote -v
+origin  https://github.com/devikag6/firstRep.git (fetch)
+origin  https://github.com/devikag6/firstRep.git (push)
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git remote set-url origin https://github.com/devikag6/firstRep.git
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$ git push origin master
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 213 bytes | 15.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/devikag6/firstRep/pull/new/master
+remote:
+To https://github.com/devikag6/firstRep.git
+ * [new branch]      master -> master
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$
+
+SIGNIN@DESKTOP-L784RQQ MINGW64 ~/gitdemo (master)
+$
